@@ -1,3 +1,35 @@
-body{
-    background-color: aqua;
+#anima-div{
+    width: 250px;
+    height: 250px;
+    background-color: #3a759c;
+    position: relative;
+  /*  border-radius: 100%;*/
+    animation: mov-div 5s infinite;
+}
+
+/*@keyframes mov-div{
+    from{top: 0px;}
+    to{top: 300px;}
+}*/
+
+/*@keyframes mov-div{
+    0%{top: 0px;}
+    25%{top: 250px;}
+    50%{top: 50px;}
+    75%{top: 500px;}
+    100%{top: 0px;}
+}*/
+
+/*@keyframes mov-div{
+    0%{top: 0px; left:0px; background: #ff0000}
+    25%{top: 0px; left: 300px; background: #29c0ac}
+    50%{top: 300px; left:300px; background: #0f3cd3}
+    75%{top: 300px; left:0px; background: #0ae46c}
+    100%{top: 0px; left:0px; background: #ff0000}
+}*/
+
+@keyframes mov-div{
+    0%{width: 0px; background: #ff0000}
+    50%{width: 400px; background: #152aee}   
+    100%{width: 0px; background: #ff0000}
 }
